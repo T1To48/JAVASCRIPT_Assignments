@@ -43,16 +43,16 @@ let="4444";
 1. create a variable and assign a value on how
 much a restaurant bill is:
 let price=14.99;
-Total to be paid (service is included ), $${price}.
+`Total to be paid (service is included ), $${price}.`
 
 2. create a variable and assign a value on how
 much tax they should pay:
 let tax=18%;
-total Taxes to be paid this month:$${tax*price}.
+`total Taxes to be paid this month:$${tax*price}.`
 3. create a variable that will calculate the bill
 * tax and its output would be: Your total bill is
 <total bill> $.
-total to be Paid:$${(tax*price)+price}
+`total to be Paid:$${(tax*price)+price}`
 */
 // Round the number 50.6 to its nearest integer
 Math.around(50.6);
