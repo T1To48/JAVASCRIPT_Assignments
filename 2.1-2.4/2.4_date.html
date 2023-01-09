@@ -8,7 +8,7 @@
 </head>
 <body>
    <script>
-      function datee(){
+      function date(){
          const dat= new Date();
          let tage=['sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
          let wochenTag= tage[dat.getDay()];
@@ -18,7 +18,7 @@
          let jahr=dat.getFullYear();
          return `Today is ${wochenTag} the ${tagNumm} of ${monat} ${jahr}`;
       }
-  console.log(datee());
+  console.log(date());
  
    </script>
 </body>
