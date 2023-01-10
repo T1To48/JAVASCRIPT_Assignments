@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      function b00m(n){
+         for(let x = 0 ; x <= n ; x++ ){
+            
+            if(x%7===0 && x.includes(7) === true){
+               x="BOOM-BOOM";
+               console.log(x);
+            }
+            else if(x%7===0){
+               x="BOOM";
+               console.log(x);
+            }
+            else{
+               console.log(x);
+            }
+         }
+      }
+      console.log(b00m(77));
+   </script>
+</body>
+</html>

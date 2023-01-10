@@ -1,0 +1,37 @@
+
+
+<!-- the system or the JS software , has numeric and string values ,
+ each one i totally different type , with 2 equal signs == just the content of them or 
+ the kind of them should be identical thats why java script 
+converts everything into common language to compare string with numeric value
+but with === the system compares both the kind and the value thats why
+ we should manually change them into common language , which is INTEGERS with parseInt() -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      let numSiblings=prompt('how many siblings do you have?');
+      let numericSiblings=parseInt(numSiblings);
+      if (numericSiblings===1){
+         console.log(numericSiblings);
+      }
+      else if (numericSiblings>1){
+         console.log('More than 1');
+      }
+      else if(numericSiblings===0){
+         console.log('no siblings');
+      }
+      else{
+         console.log("unvalid input, please try again!")
+      }
+   </script>
+</body>
+</html>
+

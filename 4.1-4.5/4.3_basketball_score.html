@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      let john=[89,120,103];
+      let mike=[116,94,123];
+      let mary=[97,134,105];
+      john=[95,120,122];
+      mike=[116,94,123];
+
+      let avgJohn=(john[0]+john[1]+john[2])/john.length;
+      let avgMike=(mike[0]+mike[1]+mike[2])/mike.length;
+      let avgMary=(mary[0]+mary[1]+mary[2])/mary.length;
+      if (avgJohn>avgMike && avgJohn>avgMary){
+         console.log(`John's Team is the Winner ,Average Score: ${Math.round(avgJohn)}`);
+      }
+      else if(avgJohn<avgMike && avgMike>avgMary){
+         console.log(`Mike's Team is the Winner ,Average Score: ${Math.round(avgMike)}`);
+      }
+      else if(avgJohn<avgMary && avgMary>avgMike ){
+         console.log(`Mary's Team is the Winner ,Average Score: ${Math.round(avgMary)}`);
+      }
+   </script>
+</body>
+</html>
