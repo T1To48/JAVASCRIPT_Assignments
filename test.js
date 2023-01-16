@@ -4,4 +4,4 @@ function ageRange(min,max){
    }
 }
 const inRange= ageRange(18,100);
-console.log(inRange(99));
+console.log(inRange(1020));
