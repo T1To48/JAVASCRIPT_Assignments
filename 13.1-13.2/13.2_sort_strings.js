@@ -1,3 +1,12 @@
+
+// CONCLUSION in b.1+b2 and maybe others when using the a nd b with IF STATEMENT 
+// the return value 1,0,-1 are index assigning for the "b" from (a,b)
+
+
+
+
+
+
 // Answer the following questions:
 // a. Array of words
 const foods = ["falafel", "sabich", "hummus","pizza with extra pineapple"];
