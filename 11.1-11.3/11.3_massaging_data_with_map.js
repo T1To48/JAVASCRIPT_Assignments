@@ -68,8 +68,6 @@ console.log(vor1990(data));
 // foods from all the objects as the key and the number of
 // times that food is present in all the objects as the value.
 
-//1// we must find the iteration number of all the foods 
-//2//
 function menu(obj1){
    let theObj={};
    obj1.forEach((checker)=>{
