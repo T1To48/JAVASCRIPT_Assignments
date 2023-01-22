@@ -1,5 +1,5 @@
 
-// CONCLUSION in b.1+b2 and maybe others when using the a nd b with IF STATEMENT 
+// CONCLUSION in b.1+b2 and maybe others when using the a and b with IF STATEMENT 
 // the return value 1,0,-1 are index assigning for the "b" from (a,b)
 
 
