@@ -127,10 +127,9 @@ console.log(uniqueCities);
 // Question 5: Extract to an array a list of all the people's hobbies in alphabetical order.
 
 const allHobbies=function(){
-  let hobbiesArr=[];
   let allHobbies=[];
-  data.forEach((person)=>{
-  hobbiesArr.push(person.hobbies);
+  const hobbiesArr=data.map((person)=>{
+  return person.hobbies;
 })
 hobbiesArr.forEach((eachOne)=>eachOne.forEach((hobby)=>{
   allHobbies.push(hobby);
