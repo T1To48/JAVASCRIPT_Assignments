@@ -132,7 +132,7 @@ const allHobbies=function(){
   return person.hobbies;
 })
 hobbiesArr.forEach((eachOne)=>eachOne.forEach((hobby)=>{
-  allHobbies.push(hobby);
+  allHobbies.push(hobby)
 }))
 return allHobbies;
 }
