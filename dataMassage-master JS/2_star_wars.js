@@ -253,4 +253,4 @@ const data = {
 
 // Question 5: Return an array with 2 objects. One object with the name of the planet that has the most number of films featured in and the number of films, and an object of the planet that has the least number of films featured in and the number of films.
 // expected output: maxMinFilmsPlanet [ { name: 'Planet X', films: 5 }, { name: 'Planet Y', films: 1 } ]
-// Question 6: Extract the name, climate, terrain and the number of films for all the planets, and return an object that has the name of the planet as the key and the other data as the value.
+// Question 64: Extract the name, climate, terrain and the number of films for all the planets, and return an object that has the name of the planet as the key and the other data as the value.
