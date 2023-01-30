@@ -1,0 +1,29 @@
+body{
+   height: 100vh;
+   width: 100vw;
+   display:flex;
+   justify-self: center;
+   align-items: center;
+   margin:0;
+   background-color:black;
+
+}
+#play-ground{
+   background-color: #ccc;
+   width:100vmin;
+   height:100vmin;
+   display: grid;
+   grid-template-rows: repeat(21,1fr);
+   grid-template-columns: repeat(21,1fr);
+
+}
+
+.schlange{
+   background-color: rgba(210, 61, 131, 0.864);
+   border:.25vmin solid black;
+}
+
+.futter{
+   background-color: hsl(50,100%,50%);
+   border:.25vmin solid black;
+}
