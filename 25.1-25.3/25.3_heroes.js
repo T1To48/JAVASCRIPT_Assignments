@@ -17,7 +17,7 @@ console.log(`my name is ${this.name}`);
 function printHeroes(heroes, printFunc) {
    
    for (let hero of heroes){
-       printFunc.call(hero)
+       printFunc.apply(hero)
    }
 }
 printHeroes(superHeroes,printName);
